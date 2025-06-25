@@ -1,39 +1,92 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
   <title>Ismaeel's Personal Website</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <header class="hero">
-    <h1>Welcome to My World</h1>
-    <p>I'm Ismaeel — designer, developer, and dreamer</p>
+  <header class="hero-header">
+    <div class="nav-container">
+      <!-- Replace text logo with an image -->
+      <a href="index.html" class="logo">
+        <img src="img/logo.png" alt="Ismaeel's Logo" />
+        <span class="logo-text">Ismaeel</span>
+      </a>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <nav class="nav-links responsive-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <div class="hero-content">
+      <h1>Welcome to My World</h1>
+      <p>I'm Ismaeel — designer, developer, and dreamer.</p>
+      <p>Explore my work and connect with me to bring your ideas to life!</p>
+    </div>
   </header>
-
+  
   <section class="about">
     <h2>About Me</h2>
-    <p>Hello! I'm a passionate web developer learning HTML, CSS, and JavaScript to build cool things. I love turning ideas into elegant digital experiences.</p>
+    <p>
+      I am a seasoned IT Support Specialist and Senior Technical Support Engineer with over 7 years of experience driving seamless technology operations in large-scale enterprise environments. At CANDIX ENGINEERING NIGERIA LIMITED, I spearhead proactive support initiatives for over 2,500 users, oversee critical deployments of hardware and software across TEPNG JV Districts, and consistently deliver solutions that minimize downtime and maximize efficiency.
+    </p>
+    <p>
+      My certifications in Cybersecurity, Ethical Hacking, FinOps, and CCNA reflect my commitment to technical excellence and financial cloud cost optimization. I am passionate about designing robust systems, enhancing infrastructure performance, and implementing scalable strategies that empower users and drive organizational productivity. Whether deploying cutting-edge solutions, optimizing cloud expenditures, or providing real-time event and meeting support, I remain focused on innovation, user satisfaction, and operational excellence.
+    </p>
+    <p>
+      Let’s collaborate to build smarter, more resilient systems that transform ideas into impactful realities.
+    </p>
   </section>
+  
+  <div class="project-card coming-soon">
+    <h3>Next Big Thing 🚧</h3>
+    <p>I'm currently working on my next project. Stay tuned!</p>
+    <p>Check out my <a href="projects.html">Projects</a> page to see what I've built so far.</p>
+  </div>
 
   <section class="contact">
     <h2>Contact Me</h2>
     <p>I'd love to connect! Reach out through any of these platforms:</p>
     <ul>
-      <li>Email: <a href="mailto:crownkolaa@gmail.com">crownkolaa@gmail.com</a></li>
-      <li>GitHub: <a href="https://github.com/crownkola" target="_blank">github.com/yourusername</a></li>
-      <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
-      <li>Twitter/X: <a href="https://twitter.com/yourhandle" target="_blank">@yourhandle</a></li>
-      <li>Instagram: <a href="https://instagram.com/yourhandle" target="_blank">@yourhandle</a></li>
-      <li>WhatsApp: <a href="https://wa.me/2348100028373" target="_blank">Chat on WhatsApp</a></li>
+        <li>Email: <a href="mailto:crownkolaa@gmail.com">crownkolaa@gmail.com</a></li>
+        <li>GitHub: <a href="https://github.com/crownkola" target="_blank">github.com/crownkola</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/adekola-ismaeel" target="_blank">linkedin.com/in/adekola-ismaeel</a></li>
+        <li>Twitter/X: <a href="https://twitter.com/@crownkola1" target="_blank">@crownkola1</a></li>
+        <li>Instagram: <a href="https://instagram.com/crownkolaa" target="_blank">@crownkolaa</a></li>
+        <li>WhatsApp: <a href="https://wa.me/2348100028373" target="_blank">Chat on WhatsApp</a></li>
     </ul>
+    <p>Feel free to drop me a message anytime. Let's collaborate and create something amazing!</p>
   </section>
-  
 
   <script src="script.js"></script>
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="img/logo.png" alt="Ismaeel's Logo" />
+        <span class="footer-logo-text">Ismaeel</span>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-socials">
+        <a href="https://github.com/crownkola" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/adekola-ismaeel" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/@crownkola1" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com/crownkolaa" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Ismaeel. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
-
